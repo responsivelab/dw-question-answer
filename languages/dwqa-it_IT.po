@@ -542,32 +542,32 @@ msgstr "Domanda"
 #: inc/Posts/Question.php:196
 msgctxt "taxonomy general name"
 msgid "Question Categories"
-msgstr ""
+msgstr "Categorie domande"
 
 #: inc/Posts/Question.php:197
 msgctxt "taxonomy singular name"
 msgid "Question Category"
-msgstr ""
+msgstr "Categoria"
 
 #: inc/Posts/Question.php:198
 msgid "Search Question Categories"
-msgstr ""
+msgstr "Cerca categorie domande"
 
 #: inc/Posts/Question.php:199
 msgid "All Question Categories"
-msgstr ""
+msgstr "Tutte le categorie"
 
 #: inc/Posts/Question.php:200
 msgid "Parent Question Category"
-msgstr ""
+msgstr "Categoria precendente"
 
 #: inc/Posts/Question.php:201
 msgid "Parent Question Category:"
-msgstr ""
+msgstr "Categoria precedente"
 
 #: inc/Posts/Question.php:202
 msgid "Edit Question Category"
-msgstr ""
+msgstr "mODIFICA CATEGORIA"
 
 #: inc/Posts/Question.php:203
 msgid "Update Question Category"
@@ -588,7 +588,7 @@ msgstr "Categoria domanda"
 #: inc/Posts/Question.php:225
 msgctxt "taxonomy general name"
 msgid "Question Tags"
-msgstr ""
+msgstr "Tags"
 
 #: inc/Posts/Question.php:226
 msgctxt "taxonomy singular name"
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: inc/Status.php:300
 msgid "Answered"
-msgstr "In risoluzione"
+msgstr "Risposte"
 
 #: inc/Status.php:324
 #, fuzzy
@@ -1117,11 +1117,11 @@ msgstr ""
 
 #: inc/Template.php:78
 msgid "What do you want to know?"
-msgstr ""
+msgstr "Cosa vuoi sapere?"
 
 #: inc/Template.php:157
 msgid "Subscribe"
-msgstr ""
+msgstr "Iscriviti"
 
 #: inc/Template.php:445
 msgid "Email"
@@ -1347,19 +1347,19 @@ msgstr ""
 
 #: templates/archive-question-filter.php:24
 msgid "My questions"
-msgstr ""
+msgstr "Le mie discussioni"
 
 #: templates/archive-question-filter.php:25
 msgid "My subscribes"
-msgstr ""
+msgstr "Ciò che seguo"
 
 #: templates/archive-question-filter.php:29
 msgid "Subscribes"
-msgstr ""
+msgstr "iscrizioni"
 
 #: templates/archive-question-filter.php:32
 msgid "Sort by"
-msgstr ""
+msgstr "Ordina per"
 
 #: templates/archive-question-filter.php:33
 msgid "Views"
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: templates/archive-question-filter.php:35
 msgid "Votes"
-msgstr ""
+msgstr "Voti"
 
 #: templates/archive-question.php:28
 msgid "Ask Question"
@@ -1375,17 +1375,17 @@ msgstr "Invia Domanda"
 
 #: templates/captcha-form.php:20
 msgid "Enter the result"
-msgstr ""
+msgstr "Invia"
 
 #: templates/content-comment.php:16
 #, php-format
 msgctxt "%s = human-readable time difference"
 msgid "replied %s ago"
-msgstr ""
+msgstr "ha risposto %s fa"
 
 #: templates/content-edit.php:21 templates/question-submit-form.php:13
 msgid "Title"
-msgstr ""
+msgstr "Titolo"
 
 #: templates/content-edit.php:36 templates/question-submit-form.php:38
 msgid "Select question category"
@@ -1393,7 +1393,7 @@ msgstr "Seleziona una categoria:"
 
 #: templates/content-edit.php:50
 msgid "Save Changes"
-msgstr ""
+msgstr "Salva"
 
 #: templates/content-none.php:10
 msgid "You do not have permission to view questions"
@@ -1401,7 +1401,7 @@ msgstr "Non hai i permessi per accedere a questa domanda"
 
 #: templates/content-none.php:12
 msgid "Sorry, but nothing matched your filter"
-msgstr ""
+msgstr "Mi dispiace, non trovo nulla con questi parametri"
 
 #: templates/content-question.php:18
 msgid "asked"
@@ -1410,7 +1410,7 @@ msgstr "inviata"
 #: templates/content-question.php:25
 #, php-format
 msgid "<span><a href=\"%s\">%s%s</a> %s %s ago</span>"
-msgstr ""
+msgstr "<span><a href=\"%s\">%s%s</a> %s %s fa</span>"
 
 #: templates/content-question.php:26 templates/content-single-answer.php:25
 msgid "&nbsp;&bull;&nbsp;"
@@ -1424,12 +1424,12 @@ msgstr ""
 #: templates/content-question.php:35
 #, php-format
 msgid "<strong>%1$s</strong> answers"
-msgstr ""
+msgstr "<strong>%1$s</strong> risposte"
 
 #: templates/content-question.php:39
 #, php-format
 msgid "<strong>%1$s</strong> votes"
-msgstr ""
+msgstr "<strong>%1$s</strong> voti"
 
 #: templates/content-single-answer.php:12
 #: templates/content-single-question.php:14
@@ -1444,12 +1444,12 @@ msgstr "Dai un voto negativo"
 #: templates/content-single-answer.php:17
 #: templates/content-single-answer.php:19
 msgid "Best Answer"
-msgstr ""
+msgstr "Miglior risposta"
 
 #: templates/content-single-answer.php:23
 #, php-format
 msgid "<span><a href=\"%s\">%s%s</a> %s answered %s ago</span>"
-msgstr ""
+msgstr "<span><a href=\"%s\">%s%s</a> %s ha risposto %s fa</span>"
 
 #: templates/content-single-answer.php:26
 msgid "Private"
@@ -1458,7 +1458,7 @@ msgstr "Privata"
 #: templates/content-single-question.php:19
 #, php-format
 msgid "<span><a href=\"%s\">%s%s</a> %s asked %s ago</span>"
-msgstr ""
+msgstr "<span><a href=\"%s\">%s%s</a> %s ha chiesto %s fa</span>"
 
 #: templates/content-single-question.php:25
 msgid "Question Tags: "
@@ -1466,7 +1466,7 @@ msgstr ""
 
 #: templates/content-single-question.php:29
 msgid "This question is:"
-msgstr ""
+msgstr "Questa domanda è: "
 
 #: templates/question-submit-form.php:69
 #, fuzzy
@@ -1532,16 +1532,16 @@ msgstr ""
 #~ msgstr "Precedente"
 
 #~ msgid "Please enter your question"
-#~ msgstr "inserisci la tua domanda"
+#~ msgstr "Crea un post nel forum"
 
 #~ msgid "Your question must be at least 2 characters in length"
-#~ msgstr "La domanda deve contenere almeno 2 caratteri"
+#~ msgstr "La discussione deve contenere almeno 20 caratteri"
 
 #~ msgid "Enter a valid email address"
 #~ msgstr "Inserisci un indirizzo mail valido"
 
 #~ msgid "Enter a question title"
-#~ msgstr "Inserisci il titolo della domanda"
+#~ msgstr "Inserisci il titolo della discussione"
 
 #~ msgid "Please add your name"
 #~ msgstr "inserisci il tuo nome"
@@ -1602,18 +1602,18 @@ msgstr ""
 #~ msgstr "mostra"
 
 #~ msgid "Follow This Question"
-#~ msgstr "Segui questa domanda"
+#~ msgstr "Segui questa discussione"
 
 #~ msgid "Unfollow This Question"
-#~ msgstr "Smetti di seguire questa domanda"
+#~ msgstr "Smetti di seguire questa discussione"
 
 #, fuzzy
 #~ msgid "Pin this question to top"
-#~ msgstr "Metti questa domandain evidenza nella pagina principale"
+#~ msgstr "Metti questa discussione in evidenza nella pagina principale"
 
 #, fuzzy
 #~ msgid "Unpin this question from top"
-#~ msgstr "Rimuovi questa domanda dalla pagina principale"
+#~ msgstr "Rimuovi questa discussione dalla pagina principale"
 
 #, fuzzy
 #~ msgid "Do you want to delete this question?"
@@ -1649,7 +1649,7 @@ msgstr ""
 #~ msgstr "o"
 
 #~ msgid " to submit question."
-#~ msgstr "per inviare una domanda"
+#~ msgstr "per inviare una discussione"
 
 #, fuzzy
 #~ msgid "Search query is empty"
@@ -1685,10 +1685,10 @@ msgstr ""
 #~ msgstr "Commenta"
 
 #~ msgid "Enable/Disable captcha on submit question page"
-#~ msgstr "Abilita/disabilita captche in pagina Invia Domanda"
+#~ msgstr "Abilita/disabilita captche in pagina Invia discussione"
 
 #~ msgid "Enable/Disable captcha on single question page"
-#~ msgstr "Abilita/disabilita captche in singola domanda"
+#~ msgstr "Abilita/disabilita captche in singola discussione"
 
 #~ msgid "questions"
 #~ msgstr "domande"
@@ -1700,14 +1700,14 @@ msgstr ""
 #~ msgstr "Le domande devono essere approvate manualmente"
 
 #~ msgid "New Question Notification"
-#~ msgstr "Notifica di nuova domanda"
+#~ msgstr "Notifica di nuova discussione"
 
 #~ msgid "New Answer Notification"
 #~ msgstr "Notifica di nuova risposta"
 
 #, fuzzy
 #~ msgid "New Comment to Question Notification (to Followers )"
-#~ msgstr "Notifica di nuovo commento alla domanda (agli iscritti)"
+#~ msgstr "Notifica di nuovo commento alla discussione (agli iscritti)"
 
 #~ msgid "New Comment to Answer Notification"
 #~ msgstr "Notifica di nuovo commento alla risposta"
@@ -1725,34 +1725,34 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Private Question"
-#~ msgstr "Modifica domanda"
+#~ msgstr "Modifica discussione"
 
 #, fuzzy
 #~ msgid "Review Question"
-#~ msgstr "Leggi domanda"
+#~ msgstr "Leggi discussione"
 
 #~ msgid "Time settings"
 #~ msgstr "Opzioni tempo"
 
 #~ msgid "New Question Time Frame"
-#~ msgstr "Durata nuova domanda"
+#~ msgstr "Durata nuova discussione"
 
 #~ msgid "Question Overdue - Time Frame"
-#~ msgstr "Domanda scaduta - Durata"
+#~ msgstr "Discussione scaduta - Durata"
 
 #~ msgid "Captcha settings"
 #~ msgstr "Opzioni Captcha"
 
 #, fuzzy
 #~ msgid "Captcha on Submit Question Page"
-#~ msgstr "Captcha in pagina Invia Domanda"
+#~ msgstr "Captcha in pagina Invia discussione"
 
 #, fuzzy
 #~ msgid "Captcha on Single Question Page"
-#~ msgstr "Captcha nella singola pagina Domanda"
+#~ msgstr "Captcha nella singola pagina discussione"
 
 #~ msgid "Single Question"
-#~ msgstr "Singola domanda"
+#~ msgstr "Singola discussione"
 
 #~ msgid "Single Category"
 #~ msgstr "Singola categoria"
@@ -1771,7 +1771,7 @@ msgstr ""
 #~ msgstr "Oggetto dell'emal"
 
 #~ msgid "New Comment to Question Notification"
-#~ msgstr "Notifica di nuovo commento alla domanda"
+#~ msgstr "Notifica di nuovo commento alla discussione"
 
 #~ msgid "Send to"
 #~ msgstr "Invia a"
@@ -1815,7 +1815,7 @@ msgstr ""
 #~ "email is safe with us and will not be published."
 #~ msgstr ""
 #~ "Inserisci la tua email per ricevere gli aggiornamenti che riguardano la "
-#~ "tua domanda. Il tuo indirizzo non verrà pubblicato."
+#~ "tua discussione. Il tuo indirizzo non verrà pubblicato."
 
 #, fuzzy
 #~ msgid "Your email *"
@@ -1826,7 +1826,7 @@ msgstr ""
 
 #~ msgid "or <strong><a href=\"%s\">login</a></strong> to submit question"
 #~ msgstr ""
-#~ "o <strong><a href=\"%s\">accedi</a></strong> per inviare una domanda"
+#~ "o <strong><a href=\"%s\">accedi</a></strong> per inviare una discusssione"
 
 #~ msgid "Private: %s"
 #~ msgstr "Privato: %s"
@@ -1846,28 +1846,28 @@ msgstr ""
 #~ msgstr "Il tuo indirizzo mail non verrà reso pubblico"
 
 #~ msgid "Add New Question"
-#~ msgstr "Aggiungi nuova domanda"
+#~ msgstr "Aggiungi nuova discussione"
 
 #~ msgid "Edit Question"
-#~ msgstr "Modifica domanda"
+#~ msgstr "Modifica discussione"
 
 #~ msgid "New Question"
-#~ msgstr "Nuova domanda"
+#~ msgstr "Nuova discussione"
 
 #~ msgid "All Questions"
 #~ msgstr "Tutte le domande"
 
 #~ msgid "View Question"
-#~ msgstr "Leggi domanda"
+#~ msgstr "Leggi discussione"
 
 #~ msgid "Search Question"
-#~ msgstr "Cerca domanda"
+#~ msgstr "Cerca discussione"
 
 #~ msgid "No questions found"
-#~ msgstr "Nessuna domanda trovata"
+#~ msgstr "Nessuna discussione trovata"
 
 #~ msgid "No questions found in Trash"
-#~ msgstr "Nessuna domanda trovata nel cestino"
+#~ msgstr "Nessuna discussione trovata nel cestino"
 
 #~ msgid "DW Q&A"
 #~ msgstr "DW Q&A"
@@ -1929,7 +1929,7 @@ msgstr ""
 #~ msgstr "Nome nuova categoria"
 
 #~ msgid "Question Categories"
-#~ msgstr "Categorie domanda"
+#~ msgstr "Categorie discussioni"
 
 #~ msgctxt "taxonomy general name"
 #~ msgid "Tags"
@@ -2022,11 +2022,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Answer is missing"
-#~ msgstr "Rispondi a questa domanda"
+#~ msgstr "Rispondi a questa dicussione"
 
 #, fuzzy
 #~ msgid "You do not have permission to edit this post"
-#~ msgstr "Non hai i permessi per accedere a questa domanda"
+#~ msgstr "Non hai i permessi per accedere a questa discussione"
 
 #, fuzzy
 #~ msgid "This post is not an answer"
@@ -2037,14 +2037,14 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "The question is missing"
-#~ msgstr "Questa domanda è stata chiusa"
+#~ msgstr "Questa discussione è stata chiusa"
 
 #~ msgid "DWQA 404 Page"
 #~ msgstr "DWQA 404 Page"
 
 #, fuzzy
 #~ msgid "Single Question Template"
-#~ msgstr "Singola domanda"
+#~ msgstr "Singola discussione"
 
 #~ msgid "Google Captcha Public Key"
 #~ msgstr "Chiave pubblica Google Captcha"
@@ -2053,7 +2053,7 @@ msgstr ""
 #~ msgstr "Chiave privata Google Captcha"
 
 #~ msgid "New Comment to Question"
-#~ msgstr "Nuovo commento alla domanda"
+#~ msgstr "Nuovo commento alla discussione"
 
 #~ msgid "New Comment to Answer"
 #~ msgstr "Nuovo commento alla risposta"
@@ -2064,7 +2064,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "New Comment to Question (to Followers )"
-#~ msgstr "Nuovo commento alla domanda (agli iscritti)"
+#~ msgstr "Nuovo commento alla discussione (agli iscritti)"
 
 #, fuzzy
 #~ msgid "New Comment to Answer (to Followers )"
@@ -2073,11 +2073,11 @@ msgstr ""
 #, fuzzy
 #~ msgid "% person who is following this question"
 #~ msgid_plural "% people who are following this question"
-#~ msgstr[0] "persone iscritte a questa domanda"
-#~ msgstr[1] "persone iscritte a questa domanda"
+#~ msgstr[0] "persone iscritte a questa dscussione"
+#~ msgstr[1] "persone iscritte a questa discussione"
 
 #~ msgid "Answer this Question"
-#~ msgstr "Rispondi a questa domanda"
+#~ msgstr "Rispondi a questa discussione"
 
 #~ msgid "Add answer"
 #~ msgstr "Aggiungi risposta"
@@ -2096,11 +2096,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Unpin this Question from the top"
-#~ msgstr "Rimuovi questa domanda dalla pagina principale"
+#~ msgstr "Rimuovi questa discussione dalla pagina principale"
 
 #, fuzzy
 #~ msgid "Pin this Question to top"
-#~ msgstr "Metti questa domandain evidenza nella pagina principale"
+#~ msgstr "Metti questa discussione in evidenza nella pagina principale"
 
 #~ msgid "answer"
 #~ msgid_plural "answers"
@@ -2112,7 +2112,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "This question is now closed"
-#~ msgstr "Questa domanda è stata chiusa"
+#~ msgstr "Questa discussione è stata chiusa"
 
 #~ msgid "You do not have permission to submit answer."
 #~ msgstr "Non hai i permessi per inviare una risposta"
@@ -2194,28 +2194,28 @@ msgstr ""
 #~ msgstr "tag1, tag2, ..."
 
 #~ msgid "Your question"
-#~ msgstr "La tua domanda"
+#~ msgstr "La tua discussione"
 
 #~ msgid "How to..."
 #~ msgstr "Come fare a..."
 
 #~ msgid "Question details"
-#~ msgstr "Contenuto della domanda"
+#~ msgstr "Contenuto della discussione"
 
 #~ msgid "Post this Question as Private."
-#~ msgstr "Invia come domanda privata"
+#~ msgstr "Invia come discussione privata"
 
 #~ msgid "Only you as Author and Admin can see the question"
-#~ msgstr "Solo tu, in quanto autore, puoi visualizzare la domanda "
+#~ msgstr "Solo tu, in quanto autore, puoi visualizzare la discussione "
 
 #~ msgid "Search"
 #~ msgstr "Cerca"
 
 #~ msgid "Your question has been submitted and is currently awaiting approval"
-#~ msgstr "La tua domanda è stata inviata ed è ora in attesa di approvazione"
+#~ msgstr "La tua discussione è stata inviata ed è ora in attesa di approvazione"
 
 #~ msgid "This question is currently awaiting approval"
-#~ msgstr "Questa domanda è attualmente in fase di approvazione"
+#~ msgstr "Questa discussione è attualmente in fase di approvazione"
 
 #~ msgid "Posts by"
 #~ msgstr "Post di"
@@ -2229,11 +2229,11 @@ msgstr ""
 
 #~ msgctxt "post type general name"
 #~ msgid "Question"
-#~ msgstr "Domanda"
+#~ msgstr "discussione"
 
 #~ msgctxt "post type singular name"
 #~ msgid "Question"
-#~ msgstr "Domanda"
+#~ msgstr "Discussione"
 
 #~ msgctxt "post type general name"
 #~ msgid "Answer"
@@ -2267,10 +2267,10 @@ msgstr ""
 #~ msgstr "Prego <a href=\""
 
 #~ msgid "Stick This Question on Frontpage"
-#~ msgstr "Evidenzia questa domanda nella pagina principale"
+#~ msgstr "Evidenzia questa discussione nella pagina principale"
 
 #~ msgid "Untick This Question on Frontpage"
-#~ msgstr "Rimuovi questa domanda dalla pagina principale"
+#~ msgstr "Rimuovi questa discussione dalla pagina principale"
 
 #~ msgid "YCaptcha is not correct"
 #~ msgstr "YCaptcha non corretto"
@@ -2279,13 +2279,13 @@ msgstr ""
 #~ msgstr "Ti serve un canale di supporto all'interno del tuo sito Wordpress?"
 
 #~ msgid "Create Submit Question Page"
-#~ msgstr "Crea pagina Invia Domanda"
+#~ msgstr "Crea pagina Invia Discussione"
 
 #~ msgid "How to create submit question page?"
-#~ msgstr "Come creare la pagina Invia Domanda?"
+#~ msgstr "Come creare la pagina Invia Discussione?"
 
 #~ msgid "Go to <strong>Dashboard -> Question -> Settings</strong>"
-#~ msgstr "Vai in <strong>Dashboard -> Domanda -> Settings</strong>"
+#~ msgstr "Vai in <strong>Dashboard -> Discussione -> Settings</strong>"
 
 #~ msgid "Available Settings"
 #~ msgstr "Opzioni disponibili"
